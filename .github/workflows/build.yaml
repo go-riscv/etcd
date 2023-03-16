@@ -19,6 +19,7 @@ jobs:
           - linux-arm64
           - linux-ppc64le
           - linux-s390x
+          - linux-riscv64
     steps:
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
       - id: goversion
@@ -53,6 +54,9 @@ jobs:
               ;;
             linux-arm64)
               GOOS=linux GOARCH=arm64 make build
+              ;;
+            linux-riscv64)
+              GOARCH=riscv64 GO_BUILD_FLAGS='-v -mod=readonly' ./scripts/build.sh
               ;;
             linux-ppc64le)
               GOOS=linux GOARCH=ppc64le make build
