@@ -56,7 +56,7 @@ jobs:
               GOOS=linux GOARCH=arm64 make build
               ;;
             linux-riscv64)
-              GOARCH=riscv64 GO_BUILD_FLAGS='-v -mod=readonly' ./scripts/build.sh
+              GOOS=linux GOARCH=riscv64 make build
               ;;
             linux-ppc64le)
               GOOS=linux GOARCH=ppc64le make build

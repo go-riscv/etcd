@@ -17,6 +17,11 @@ ARCH=$(go env GOARCH)
 VERSION="${VERSION}-${ARCH}"
 DOCKERFILE="Dockerfile"
 
+# If ${ARCH} is riscv64, use the riscv64.Dockerfile.
+if [ "${ARCH}" = "riscv64" ]; then
+  DOCKERFILE="riscv64.Dockerfile"
+fi
+
 if [ -z "${BINARYDIR:-}" ]; then
   RELEASE="etcd-${1}"-$(go env GOOS)-${ARCH}
   BINARYDIR="${RELEASE}"
