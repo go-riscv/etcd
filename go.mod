@@ -22,15 +22,15 @@ require (
 	github.com/spf13/cobra v1.8.0
 	github.com/stretchr/testify v1.8.4
 	go.etcd.io/bbolt v1.4.0-alpha.0
-	go.etcd.io/etcd/api/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/client/pkg/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/client/v2 v2.306.0-alpha.0
-	go.etcd.io/etcd/client/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/etcdctl/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/etcdutl/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/pkg/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/server/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/tests/v3 v3.6.0-alpha.0
+	go.etcd.io/etcd/api/v3 v3.6.0-riscv64.0
+	go.etcd.io/etcd/client/pkg/v3 v3.6.0-riscv64.0
+	go.etcd.io/etcd/client/v2 v2.306.0-riscv64.0
+	go.etcd.io/etcd/client/v3 v3.6.0-riscv64.0
+	go.etcd.io/etcd/etcdctl/v3 v3.6.0-riscv64.0
+	go.etcd.io/etcd/etcdutl/v3 v3.6.0-riscv64.0
+	go.etcd.io/etcd/pkg/v3 v3.6.0-riscv64.0
+	go.etcd.io/etcd/server/v3 v3.6.0-riscv64.0
+	go.etcd.io/etcd/tests/v3 v3.6.0-riscv64.0
 	go.etcd.io/raft/v3 v3.6.0-alpha.0
 	go.uber.org/zap v1.26.0
 	golang.org/x/time v0.5.0

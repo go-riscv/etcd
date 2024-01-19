@@ -9,10 +9,10 @@ require (
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/spf13/cobra v1.8.0
 	github.com/spf13/pflag v1.0.5
-	go.etcd.io/etcd/api/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/client/pkg/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/client/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/pkg/v3 v3.6.0-alpha.0
+	go.etcd.io/etcd/api/v3 v3.6.0-riscv64.0
+	go.etcd.io/etcd/client/pkg/v3 v3.6.0-riscv64.0
+	go.etcd.io/etcd/client/v3 v3.6.0-riscv64.0
+	go.etcd.io/etcd/pkg/v3 v3.6.0-riscv64.0
 	go.uber.org/zap v1.26.0
 	golang.org/x/time v0.5.0
 	google.golang.org/grpc v1.60.1
